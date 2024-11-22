@@ -2,3 +2,14 @@
 - a lot of Hairstyle, face, expression, cloths ect
 - a gender swap function to have the same charactère but in female and male version 
 - a list of tag to create the genom of an Icone
+- use this : Le changement de couleur de l'herbe dans Minecraft repose sur un gradient de biome. Ce processus utilise un algorithme appelé souvent interpolation bilinéaire, combiné à des mappings de couleurs basés sur les biomes. Voici un aperçu de son fonctionnement :
+
+Carte de couleur des biomes : Chaque biome dans Minecraft a une teinte d'herbe définie dans une "carte de couleur" (grass color map). Cette carte applique une teinte en fonction de la température et de l'humidité du biome.
+
+Interpolation bilinéaire : Lorsque le jeu calcule les couleurs de l'herbe, il prend en compte la transition entre biomes. Pour les zones où plusieurs biomes se rencontrent, les couleurs sont mélangées en fonction des coordonnées, grâce à une interpolation bilinéaire. Cela permet une transition fluide entre les biomes.
+
+Shader ou gestion des pixels : Dans certains cas (par exemple, avec OptiFine ou d'autres packs de shaders), les shaders peuvent ajouter des modifications supplémentaires, basées sur la lumière, la distance, ou encore des effets de texture.
+
+Propriétés dynamiques : Les algorithmes appliquent aussi des changements contextuels, comme la hauteur ou la luminosité ambiante, pour ajuster légèrement la teinte.
+
+Si tu veux explorer ce code, il se trouve dans les fichiers sources du jeu dans les systèmes liés à la gestion des biomes. En Minecraft modding (par exemple avec Forge ou Fabric), ce comportement peut être personnalisé en modifiant les classes responsables des couleurs de biome.
