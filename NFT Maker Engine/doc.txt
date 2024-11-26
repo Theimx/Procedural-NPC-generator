@@ -1,3 +1,4 @@
+
 - procedural géneration of charactère
 - a lot of Hairstyle, face, expression, cloths ect
 - a gender swap function to have the same charactère but in female and male version 
